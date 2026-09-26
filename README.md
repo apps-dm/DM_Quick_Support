@@ -1,12 +1,29 @@
 # DM Quick Support
 
-Öffentliche Downloads und automatische Updates für DM Quick Support.
+Beaufsichtigte Fernhilfe mit Bildschirmfreigabe, Sprachgespräch und optionaler Maus- und Tastatursteuerung. Du bestätigst jede Verbindung und kannst sie jederzeit beenden.
 
-[Downloads öffnen](https://github.com/apps-dm/DM_Quick_Support/releases/latest)
+## Downloads
 
-- **macOS:** Apple Silicon (arm64), DMG zur Installation.
-- **Windows:** ARM64 und x64. Setup mit Auto-Updater oder Portable ohne Installation (Updates manuell).
+[Alle Downloads und Versionshinweise](https://github.com/apps-dm/DM_Quick_Support/releases/latest)
 
-Die erste Veröffentlichung mit Auto-Updater wird vorbereitet. Updates werden im Hintergrund geladen; ein Neustart erfolgt erst nach Bestätigung und außerhalb einer laufenden Hilfesitzung.
+| System | Download |
+|---|---|
+| macOS Apple Silicon (arm64) | [DMG herunterladen](https://github.com/apps-dm/DM_Quick_Support/releases/download/v0.4.0/DM-Quick-Support-0.4.0-mac-arm64.dmg) |
+| Windows x64 | [Installer mit Auto-Updater](https://github.com/apps-dm/DM_Quick_Support/releases/download/v0.4.0/DM-Quick-Support-0.4.0-win-x64-Setup.exe) · [Portable](https://github.com/apps-dm/DM_Quick_Support/releases/download/v0.4.0/DM-Quick-Support-0.4.0-win-x64-Portable.exe) |
+| Windows ARM64 | [Installer mit Auto-Updater](https://github.com/apps-dm/DM_Quick_Support/releases/download/v0.4.0/DM-Quick-Support-0.4.0-win-arm64-Setup.exe) · [Portable](https://github.com/apps-dm/DM_Quick_Support/releases/download/v0.4.0/DM-Quick-Support-0.4.0-win-arm64-Portable.exe) |
 
-Dieses Repository enthält ausschließlich Download-Informationen, fertige Anwendungen und Update-Metadaten. Der Quellcode wird im privaten GitLab verwaltet und nicht hier veröffentlicht. Die von GitHub automatisch angebotenen „Source code“-Archive enthalten nur die öffentlichen Download-Informationen dieses Repositories.
+macOS: Die App ist mit Developer ID signiert und von Apple notarisiert. Das DMG öffnen und die App in den Programme-Ordner ziehen.
+
+Windows: Der Installer installiert für dein Benutzerkonto. Portable startet ohne Installation. Die Windows-Dateien sind derzeit unsigniert; SmartScreen kann beim ersten Start einen Hinweis anzeigen.
+
+## Updates
+
+Ab Version 0.4.0 prüft die installierte App beim Start und stündlich auf neue Versionen und lädt Updates im Hintergrund. Der Neustart erfolgt nach deiner Bestätigung und außerhalb einer angefragten oder laufenden Hilfesitzung. Über **Hilfe → Nach Updates suchen …** kannst du selbst prüfen; unter Windows öffnet **Alt** das Menü.
+
+Ältere Versionen müssen einmal manuell durch die aktuelle App ersetzt werden. Die Windows-Portable-Version wird weiterhin manuell aktualisiert.
+
+## Dieses Repository
+
+Hier liegen ausschließlich Download-Informationen, fertige Anwendungen und Update-Metadaten. Der Quellcode und die Build-Verwaltung bleiben im privaten GitLab.
+
+Die von GitHub automatisch angebotenen „Source code“-Archive enthalten nur die öffentlichen Download-Informationen dieses Repositories. Zum Installieren bitte die DMG- oder EXE-Dateien verwenden.
